@@ -13,7 +13,7 @@ Open Terminal app. Follow the instructions below and type the commands (except f
 Clone your fork to your computer. Get the URL from the right side of your fork's page and in terminal:
 
 ```bash
-$ git clone <URL>
+$ git clone https://github.com/githubteacher/nicar-2015.git
 ```
 
 Navigate (_change directory_) into your cloned repository and let Git know who is making these changes by setting a configuration:
@@ -28,7 +28,7 @@ $ git config user.email "youremail@email.com"
 By this time I've already updated the original repository you forked—you're out of date! To stay up to date create a remote connection the original, commonly named `upstream`, so that we can pull in updates when they've been made.
 
 ```
-$ git remote add upstream <URL>
+$ git remote add upstream https://github.com/githubteacher/nicar-2015.git
 $ git pull upstream master
 ```
 
